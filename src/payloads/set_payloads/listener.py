@@ -104,7 +104,7 @@ def start_listener():
     # specify it as nothing until we make it past our encryption check
     try:
 
-        from Crypto.Cipher import AES
+        from Cryptodome.Cipher import AES
 
         # set encryption key to 1
         encryption = 1

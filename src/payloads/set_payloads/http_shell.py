@@ -37,7 +37,7 @@
 
 
 import urllib
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import sys
 import os
 import http.client

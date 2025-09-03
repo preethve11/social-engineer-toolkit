@@ -45,7 +45,7 @@ except:
 
 # check to see if we have python-pycrypto
 try:
-    from Crypto.Cipher import AES
+    from Cryptodome.ome.ome.Cipher import AES
 
 except ImportError:
 
