@@ -1,5 +1,5 @@
 pexpect
-pycrypto
+pycryptodome>=3.23.0
 requests
 pyopenssl
 pefile
